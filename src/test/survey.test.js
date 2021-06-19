@@ -12,13 +12,7 @@ describe("Survey Model", function(){
         let captcha = surveyModel.captcha;
         let result = surveyModel.verifyCaptchaInput(captcha);
         console.log(result);
-        console.log(result);
-        console.log(result);
-        console.log(result);
-        console.log(result);
-        console.log(result);
-        console.log(result);
-        console.log(result);
+
         expect(result).to.equal("Success! Captcha input matched.");
     });
 
